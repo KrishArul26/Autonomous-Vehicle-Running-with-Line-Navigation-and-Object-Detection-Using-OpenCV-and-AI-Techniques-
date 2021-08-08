@@ -33,7 +33,8 @@
  
 <h3 align="left"> HSV Space</h3>
  
-<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
+<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of 
+its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
   
 <h3 align="center"> Finding HSV value</h3>   
 <p align="left">
@@ -70,7 +71,8 @@
  
 <h3 align="left">Hough Transform</h3>
  
-<p style= 'text-align: justify;'> In the Hough Space, a point is plotted if the y-intercept and the slopes are known. With changing m(Slope) and b(Intercept) values, there is a possibility to plot different lines. To identify the lines, firstly, the Hough space is split into a grid. Each bin inside the grid corresponding to the slope and y-intercept value of the line. For every point of intersection in a Hough Space bin, a vote is to be cast inside of the bin to which it belongs. The bin with the maximum number of votes will be the resulting line. OpenCV contains Hough Transform, which performs this process. The function HoughLinesP essentially tries to fit many lines through all the white pixels and return the most likely set of lines, subject to certain minimum threshold constraints.</p>
+<p style= 'text-align: justify;'> In the Hough Space, a point is plotted if the y-intercept and the slopes are known. With changing m(Slope) and b(Intercept) values, there is 
+ a possibility to plot different lines. To identify the lines, firstly, the Hough space is split into a grid. Each bin inside the grid corresponding to the slope and y-intercept value of the line. For every point of intersection in a Hough Space bin, a vote is to be cast inside of the bin to which it belongs. The bin with the maximum number of votes will be the resulting line. OpenCV contains Hough Transform, which performs this process. The function HoughLinesP essentially tries to fit many lines through all the white pixels and return the most likely set of lines, subject to certain minimum threshold constraints.</p>
 
  <h3 align="left">Average Slope-Intercept</h3>
  
@@ -81,7 +83,18 @@
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128626478-e44c5334-32b7-4105-bf3f-bea5ab96c918.png"
 </p>   
   
+<h3 align="left">Steering Angles</h3>
+ 
+<p style= 'text-align: justify;'> The steering angle is calculated based on three different scenarios; these are: 
+"both lines detection condition", "only the left line detection condition" and "only right line detection condition”.</p>
+ 
+ <h3 align="left">both lines detection condition</h3>
+ 
+<p style= 'text-align: justify;'>If both lines are detected by the program, firstly the X-coordinate of the left line and right line are separated from their corresponding lines and X offset is calculated using the equation “((left_x2+right_x2)-width)/(height)”. Trigonometry is used to find the angle is from the vertical axis.</p> 
   
+<p align="left">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128626623-ea98c431-638d-4c39-9813-189b1cae83b2.png">
+</p>    
   
   
   
