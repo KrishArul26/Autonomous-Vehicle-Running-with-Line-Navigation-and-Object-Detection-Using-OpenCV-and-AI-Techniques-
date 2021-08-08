@@ -96,7 +96,7 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
   <img width="550" src="https://user-images.githubusercontent.com/74568334/128626623-ea98c431-638d-4c39-9813-189b1cae83b2.png">
 </p>    
   
-<h3 align="left"one line detection condition</h3>
+<h3 align="left">one line detection condition</h3>
  
 <p style= 'text-align: justify;'>If one line is detected by the program,firstly the X-coordinate of the left line or right line are separated from their corresponding lines and X offset is calculated using the equation"(left_x2-left_x1)/(height/2)" or "(right_x2-right_x1)/(height/2)".Trigonometry is used to find the angle is from the vertical axis.</p> 
   
