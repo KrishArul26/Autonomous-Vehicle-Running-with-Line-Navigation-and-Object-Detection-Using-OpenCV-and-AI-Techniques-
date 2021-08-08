@@ -52,6 +52,13 @@
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128626252-98b0a5c1-5af1-465a-ae96-591cdbd2d52b.png">  
 </p> 
 
+<h3 align="left">Canny - Edge Detection</h3>
+ 
+<p style= 'text-align: justify;'> The goal of edge detection is to identify the lane boundaries and areas within the image.Canny edge detection function is applied to get the edges or boundaries in the mask image. </p>
+  
+<p align="left">
+  <img width="650" src="https://user-images.githubusercontent.com/74568334/128626310-51c07ccb-5130-45ac-a55a-54e724c97f82.png">  
+</p> 
 
   
  
