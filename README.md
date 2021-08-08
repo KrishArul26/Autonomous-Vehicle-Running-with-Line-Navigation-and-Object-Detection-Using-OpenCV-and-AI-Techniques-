@@ -104,13 +104,16 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128626940-29c7ed9f-b32a-4c0b-a191-8212d8736e30.png">
 </p>    
   
-<h3 align="left">Testing Results</h3>  
+<h3 align="center"Clockwise Testing Results</h3>  
   
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/128627857-77f03478-be80-4788-8ad7-122eee4f20dd.gif">
-  <img width="450" src="https://user-images.githubusercontent.com/74568334/128626940-29c7ed9f-b32a-4c0b-a191-8212d8736e30.png">
 </p>  
   
+ <h3 align="center"Anti Clockwise Testing Result</h3>  
   
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/128627942-48f66816-8631-46f1-958b-925a182839b4.gif">
+</p>  
   
   
