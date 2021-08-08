@@ -31,6 +31,13 @@
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
 </p> 
   
+ ### 🔑 Prerequisites
+ 
+*[Freenove 4WD Smart Car Kit](https://www.amazon.de/-/en/Freenove-Raspberry-Avoidance-Colourful-Ultrasonic/dp/B07YD2LT9D/ref=sr_1_5?crid=3VP3TDHEI052K&dchild=1&keywords=pi%20car%20kit&qid=1628421094&sprefix=pi%20car,aps,194&sr=8-5)
+
+ 
+ 
+ 
 <h2 align="center"> Results</h2> 
     
 <h4 align="left"> This project involves locating Blue lane lines in an image using Python and OpenCV.</h4>
