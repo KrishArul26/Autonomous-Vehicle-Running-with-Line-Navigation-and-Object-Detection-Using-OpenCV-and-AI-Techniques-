@@ -29,7 +29,7 @@
   
 <h3 align="left"> Lane Detection</h3> 
   
-<h4 align="left"> This project involves locating lane lines in an image using Python and OpenCV.</h4>
+<h4 align="left"> This project involves locating lane lines in an image using Python and k OpenCV.</h4>
   
   
 
