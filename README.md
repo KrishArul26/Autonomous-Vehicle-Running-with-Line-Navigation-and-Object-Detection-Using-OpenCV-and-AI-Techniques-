@@ -39,8 +39,7 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
 <h3 align="center"> Finding HSV value</h3>   
 <p align="left">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128625968-96b267d8-38cc-4193-832c-0e95342c5051.png">
-  <img width="350" src="https://user-images.githubusercontent.com/74568334/128626171-8621e60e-99e0-424c-b372-6db2f0d36873.png">
-  
+ 
 </p> 
 
   
