@@ -34,7 +34,11 @@
 <h3 align="left"> HSV Space</h3>
   
 <h4 align="left"> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of its shading. To do this, with the help of the OpenCV's function is converted to the HSV space</h4>
-
+  
+<h3 align="center"> Finding HSV value</h3>   
+<p align="center">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128625968-96b267d8-38cc-4193-832c-0e95342c5051.png">
+</p> 
   
 
 
