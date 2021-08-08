@@ -33,10 +33,7 @@
  
 <h3 align="left"> HSV Space</h3>
  
-  
-  
-  
-<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of its shading. To do this, with the help of the OpenCV's function is converted to the HSV space</p>
+<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
   
 <h3 align="center"> Finding HSV value</h3>   
 <p align="left">
@@ -44,7 +41,16 @@
   <img width="350" src="https://user-images.githubusercontent.com/74568334/128626171-8621e60e-99e0-424c-b372-6db2f0d36873.png">
   
 </p> 
+
   
+<h3 align="left"> Mask Image</h3>
+ 
+<p style= 'text-align: justify;'> After converting the image to HSV space, the area of the path is extracted from the blueish colours of the image. By defining the upper level and the lower-level blue values of the paths the separation is done from the HSV space image.</p>
+  
+  
+<p align="left">
+  <img width="650" src="https://user-images.githubusercontent.com/74568334/128626252-98b0a5c1-5af1-465a-ae96-591cdbd2d52b.png">  
+</p> 
 
 
   
