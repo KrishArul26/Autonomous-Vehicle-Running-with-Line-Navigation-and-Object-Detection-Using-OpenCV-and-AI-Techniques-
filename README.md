@@ -67,7 +67,7 @@ sudo python main.py
 sudo python app.py
 ``` 
  
-<p align="left">
+<p align="center">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128630468-f4e658c5-f878-4ae9-af5a-9fe3c541ddb8.jpg">
 </p>
 <h2 align="center"> Results</h2> 
