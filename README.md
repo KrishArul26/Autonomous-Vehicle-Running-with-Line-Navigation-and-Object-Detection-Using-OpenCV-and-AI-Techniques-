@@ -27,10 +27,14 @@
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
 </p> 
   
-<h3 align="left"> Lane Detection</h3> 
+<h3 align="center"> Lane Detection</h3> 
   
-<h4 align="left"> This project involves locating lane lines in an image using Python and k OpenCV.</h4>
+<h4 align="left"> This project involves locating Blue lane lines in an image using Python and OpenCV.</h4>
+ 
+<h3 align="left"> HSV Space</h3>
   
+<h4 align="left"> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of its shading. To do this, with the help of the OpenCV's function is converted to the HSV space</h4>
+
   
 
 
