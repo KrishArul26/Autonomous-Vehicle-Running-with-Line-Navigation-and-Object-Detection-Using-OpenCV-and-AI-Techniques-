@@ -48,7 +48,7 @@
 <p style= 'text-align: justify;'> After converting the image to HSV space, the area of the path is extracted from the blueish colours of the image. By defining the upper level and the lower-level blue values of the paths the separation is done from the HSV space image.</p>
   
   
-<p align="left">
+<p align="center">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128626252-98b0a5c1-5af1-465a-ae96-591cdbd2d52b.png">  
 </p> 
 
@@ -56,7 +56,7 @@
  
 <p style= 'text-align: justify;'> The goal of edge detection is to identify the lane boundaries and areas within the image.Canny edge detection function is applied to get the edges or boundaries in the mask image. </p>
   
-<p align="left">
+<p align="center">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128626310-51c07ccb-5130-45ac-a55a-54e724c97f82.png">  
 </p> 
 
@@ -64,8 +64,29 @@
  
 <p style= 'text-align: justify;'> The features of the image which contained the path are chosen. Based on the dimension matrix of the Canny image the masked image is created by replacing the values with zeros. Further, the half-height of the Canny image features is extracted by defining a polygon from the Car's edge. The original image is plotted using Matplotlib to find the coordinates for the Region of interest. By assigning the polygon on the mask image with the intensity of 255, the Region of interest is turned white. Further, a bitwise and operation is applied on the canny image and the mask image to get the final Region of interest (masked image).</p>
   
-<p align="left">
+<p align="center">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128626380-9dfdb503-11eb-41f3-9f8d-5b58b476538c.png">  
 </p>   
  
+<h3 align="left">Hough Transform</h3>
+ 
+<p style= 'text-align: justify;'> In the Hough Space, a point is plotted if the y-intercept and the slopes are known. With changing m(Slope) and b(Intercept) values, there is a possibility to plot different lines. To identify the lines, firstly, the Hough space is split into a grid. Each bin inside the grid corresponding to the slope and y-intercept value of the line. For every point of intersection in a Hough Space bin, a vote is to be cast inside of the bin to which it belongs. The bin with the maximum number of votes will be the resulting line. OpenCV contains Hough Transform, which performs this process. The function HoughLinesP essentially tries to fit many lines through all the white pixels and return the most likely set of lines, subject to certain minimum threshold constraints.</p>
 
+ <h3 align="left">Average Slope-Intercept</h3>
+ 
+<p style= 'text-align: justify;'> Subsequently, the left lane line and right lane line (according to the Car) consists of multiple discontinuous lines. Therefore, the average slope and intercept are calculated to combine these lines into one left lane line and the right lane line.</p>
+  
+<p align="left">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128626480-60770c20-250b-41a1-9b46-62cf9f57b421.png">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128626478-e44c5334-32b7-4105-bf3f-bea5ab96c918.png"
+</p>   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
