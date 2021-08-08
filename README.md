@@ -120,7 +120,7 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
  
 <p style= 'text-align: justify;'> Subsequently, the left lane line and right lane line (according to the Car) consists of multiple discontinuous lines. Therefore, the average slope and intercept are calculated to combine these lines into one left lane line and the right lane line.</p>
   
-<p align="left">
+<p align="center">
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128626480-60770c20-250b-41a1-9b46-62cf9f57b421.png">
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128626478-e44c5334-32b7-4105-bf3f-bea5ab96c918.png"
 </p>   
