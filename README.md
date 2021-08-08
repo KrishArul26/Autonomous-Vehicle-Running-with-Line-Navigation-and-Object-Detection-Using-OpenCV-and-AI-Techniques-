@@ -92,8 +92,8 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
  
 <p style= 'text-align: justify;'>If both lines are detected by the program, firstly the X-coordinate of the left line and right line are separated from their corresponding lines and X offset is calculated using the equation “((left_x2+right_x2)-width)/(height)”. Trigonometry is used to find the angle is from the vertical axis.</p> 
   
-<p align="left">
-  <img width="450" src="https://user-images.githubusercontent.com/74568334/128626623-ea98c431-638d-4c39-9813-189b1cae83b2.png">
+<p align="center">
+  <img width="550" src="https://user-images.githubusercontent.com/74568334/128626623-ea98c431-638d-4c39-9813-189b1cae83b2.png">
 </p>    
   
   
