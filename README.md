@@ -110,7 +110,7 @@ its shading. To do this, with the help of the OpenCV's function is converted to 
   <img width="600" src="https://user-images.githubusercontent.com/74568334/128627857-77f03478-be80-4788-8ad7-122eee4f20dd.gif">
 </p>  
   
- <h3 align="center>"Anti Clockwise Testing Result</h3>  
+ <h3 align="center">Anti Clockwise Testing Result</h3>  
   
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/128627942-48f66816-8631-46f1-958b-925a182839b4.gif">
