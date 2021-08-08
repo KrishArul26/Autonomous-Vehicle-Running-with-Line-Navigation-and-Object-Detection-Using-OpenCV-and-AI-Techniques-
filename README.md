@@ -80,7 +80,7 @@ sudo python app.py
 its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
   
 <h3 align="center"> Finding HSV value</h3>   
-<p align="left">
+<p align="center">
   <img width="650" src="https://user-images.githubusercontent.com/74568334/128625968-96b267d8-38cc-4193-832c-0e95342c5051.png">
  
 </p> 
