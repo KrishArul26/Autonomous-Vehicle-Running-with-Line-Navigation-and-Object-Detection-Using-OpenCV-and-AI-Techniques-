@@ -27,8 +27,8 @@
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
 </p> 
   
-<h3 align="center"> Lane Detection</h3> 
-  
+<h2 align="center"> Results</h2> 
+    
 <h4 align="left"> This project involves locating Blue lane lines in an image using Python and OpenCV.</h4>
  
 <h3 align="left"> HSV Space</h3>
