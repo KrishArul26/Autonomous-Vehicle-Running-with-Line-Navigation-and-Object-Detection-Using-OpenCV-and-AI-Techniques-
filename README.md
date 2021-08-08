@@ -20,15 +20,14 @@
 
 <h4 align="left"> * camera mounting is required to place the camera in an optimal height to get the future images which would be adjacent to the vehicle.</h4>
  
-<h3 align="left"> * Camera Holder.</h4>
+<h3 align="left"> Camera Holder</h4>
   
  <p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/74568334/128624444-04313456-55c2-49fe-a04c-a23d535d910e.png">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128624444-04313456-55c2-49fe-a04c-a23d535d910e.png">
+  <img width="450" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
 </p> 
   
-<p align="center">
-  <img width="500" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
-</p> 
+
   
   
 
