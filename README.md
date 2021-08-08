@@ -27,7 +27,9 @@
   <img width="450" src="https://user-images.githubusercontent.com/74568334/128624392-3fa6aaec-ce00-4208-9fb8-587b618c407a.jpg">
 </p> 
   
-
+<h3 align="left"> Lane Detection</h3> 
+  
+<h4 align="left"> This project involves locating lane lines in an image using Python and OpenCV.</h4>
   
   
 
