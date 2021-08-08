@@ -33,10 +33,34 @@
   
  ### 🔑 Prerequisites
  
-*[Freenove 4WD Smart Car Kit](https://www.amazon.de/-/en/Freenove-Raspberry-Avoidance-Colourful-Ultrasonic/dp/B07YD2LT9D/ref=sr_1_5?crid=3VP3TDHEI052K&dchild=1&keywords=pi%20car%20kit&qid=1628421094&sprefix=pi%20car,aps,194&sr=8-5)
+* [Freenove 4WD Smart Car Kit](https://www.amazon.de/-/en/Freenove-Raspberry-Avoidance-Colourful-Ultrasonic/dp/B07YD2LT9D/ref=sr_1_5?crid=3VP3TDHEI052K&dchild=1&keywords=pi%20car%20kit&qid=1628421094&sprefix=pi%20car,aps,194&sr=8-5)
 
+ ### 🚀 Initialization For Running the car Autonomously
  
- 
+ 1. Clone the repo with local computer
+
+```
+git clone https://github.com/KrishArul26/Live--streaming-Autonomous-Vehicle-running-With-line-detection-using-OpenCV.git
+
+```
+ 2. Connect the raspberry Module with local computer via Power shell(with wireless network)
+
+```
+ssh pi@car_name
+``` 
+ 3.Navigate the Raspberry Module code directory 
+
+```
+cd ...
+```  
+```
+cd share/Code
+```  
+4. Run the main.py
+
+```
+pip install sudo python main.py
+```  
  
 <h2 align="center"> Results</h2> 
     
