@@ -4,6 +4,8 @@
   <img width="600" src="https://user-images.githubusercontent.com/74568334/128628482-a327be8f-5cdb-41ce-9af2-a93bc327814c.gif">
 </p> 
 
+<h4 align="center"> <span style="color:green">Line detection/OpenCV/ SSD_mobilenet, Keras/TensorFlow/ Deep Learning and Computer Vision </span></h4>
+
 <h3 align="left">Introduction
   
 <h4 align="left">Mobility on a wide scale is moving towards complete automation. Though the technology for automating the vehicles already exists, these technologies must be optimised to fit the current environment.  This project would be a scaled-down model of the Autonomous Car and focus on the live streaming lane detection using OpenCV.</h4>
