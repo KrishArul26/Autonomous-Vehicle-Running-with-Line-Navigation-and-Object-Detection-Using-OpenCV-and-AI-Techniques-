@@ -6,7 +6,7 @@
 
 <h4 align="center"> <span style="color:green">Line detection/OpenCV/ SSD_mobilenet, Keras/TensorFlow/ Deep Learning and Computer Vision </span></h4>
 
-<h3 align="left">Introduction</h3>
+<h3 align="left">Introduction </h3>
  
 <p style= 'text-align: justify;'> Mobility on a wide scale is moving towards complete automation. Though the technology for automating the vehicles already exists, these technologies must be optimised to fit the current environment.  This project would be a scaled-down model of the Autonomous Car and focus on the live streaming lane detection using OpenCV.</p>
 
@@ -16,16 +16,16 @@
 </p> 
  
   
-<h3 align="left"> Project Limitations
+<h3 align="left"> Project Limitations </h3>
+
  
- <p style= 'text-align: justify;'> T* Three wheels were used instead of four wheels. To build a three-wheel Car, three-wheeled was to have a mounting where the third wheel could be assembled. This mount is designed based on the space available on the model car. To provide the steering, a servo motor must be fitted so that the mounting used for the steering wheel could be extended for mounting the servo motor.</p>
+<p style= 'text-align: justify;'> * Three wheels were used instead of four wheels. To build a three-wheel Car, three-wheeled was to have a mounting where the third wheel could be assembled. This mount is designed based on the space available on the model car. To provide the steering, a servo motor must be fitted so that the mounting used for the steering wheel could be extended for mounting the servo motor.</p>
   
   
  <p align="center">
   <img width="500" src="https://user-images.githubusercontent.com/74568334/128624299-5317b1e7-3a50-4782-b7a8-712d9fddc145.gif">
-</p> 
-
-<h4 align="left"> * camera mounting is required to place the camera in an optimal height to get the future images which would be adjacent to the vehicle.</h4>
+ 
+</p> * camera mounting is required to place the camera in an optimal height to get the future images which would be adjacent to the vehicle.</p>
  
 <h3 align="left"> Camera Holder</h4>
   
