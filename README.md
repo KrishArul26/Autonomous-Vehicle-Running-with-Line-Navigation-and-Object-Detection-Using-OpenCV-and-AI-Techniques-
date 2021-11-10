@@ -1,4 +1,4 @@
-<h2 align="center"> Live-streaming-Autonomous-Vehicle-running-With-line-detection-using-OpenCV</h2>
+<h2 align="center"> Autonomous Vehicle Running with Line Navigation and Object Detection Using OpenCV and AI Techniques - Live Streaming.</h2>
 
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/128628482-a327be8f-5cdb-41ce-9af2-a93bc327814c.gif">
